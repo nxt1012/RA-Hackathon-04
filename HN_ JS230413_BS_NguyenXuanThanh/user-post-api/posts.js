@@ -20,7 +20,7 @@ router.get('/:id', (req, res) => {
 
 })
 
-// POST - create a new blog post
+// POST - create a new post
 router.post('/', (req, res) => {
     let { userId, title, body } = req.body;
     let newPost = {
@@ -36,7 +36,7 @@ router.post('/', (req, res) => {
 
 })
 
-// PUT - update a user with provided id
+// PUT - update a post with provided id
 router.put('/:id', (req, res) => {
     let { id } = req.params;
     let postId = Number(id)
@@ -51,7 +51,7 @@ router.put('/:id', (req, res) => {
     res.json(newPostData)
 })
 
-// DELETE - delete a user with provided id
+// DELETE - delete a post with provided id
 router.delete('/:id', (req, res) => {
     let { id } = req.params;
     let postId = Number(id)

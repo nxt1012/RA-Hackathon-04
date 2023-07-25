@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Mạnh Cường", "columnScores": [5, 3, 0] },
+  { "id": 2, "name": "Thiên Phú", "columnScores": [5, 2, 0] },
+  { "id": 3, "name": "Xuân Bách", "columnScores": [-1, 2, 0] },
+  { "id": 4, "name": "Mạnh Hùng", "columnScores": [3, 11, 0] }
+]
